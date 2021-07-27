@@ -1,0 +1,8 @@
+
+[general]
+
+	[general.general]
+		hold_mode = true
+		invert_pitch = false
+		perspective_mod = true
+

@@ -1,0 +1,8 @@
+{
+    "prefix": "player",
+    "use_own_skin_for_others": false,
+    "hide_other_names": false,
+    "hide_own_skin": false,
+    "hide_other_skins": false,
+    "hide_own_name": false
+}

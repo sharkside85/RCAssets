@@ -1,0 +1,96 @@
+
+[general]
+
+	[general.general]
+		highlight_friends_in_tab = 1
+		hide_player_ranks_in_tab = false
+		hide_ping_in_tab = true
+		cleaner_tab_in_skyblock = false
+		auto_start = false
+
+	[general.entities]
+		hide_npcs_in_tab = true
+
+	[general.guilds]
+		broadcast_achievements = false
+		hide_guild_tags_in_tab = true
+		broadcast_levelup = false
+
+	[general.queue]
+		auto_queue_delay = 0
+		auto_queue = false
+
+[game]
+
+	[game.sound]
+		mute_housing_music = false
+
+	[game.visual]
+		hide_armour = false
+		game_countdown_timer = false
+		hide_armor = false
+		hardcore_hearts = true
+		pit_lag_reducer = true
+
+[lobby]
+
+	[lobby.general]
+		limbo_limiter = true
+
+	[lobby.entities]
+		hide_lobby_npcs = false
+
+	[lobby.gui]
+		hide_lobby_bossbars = true
+		mystery_box_star = true
+
+[chat]
+
+	[chat.guild]
+		guild_welcome_message = true
+
+	[chat.watchdog]
+		thank_watchdog = false
+
+	[chat.autocomplete]
+		"autocomplete_/play_commands" = false
+		auto-complete_play_commands = false
+
+	[chat.toggles]
+		trim_line_separators = false
+		remove_automatically_activated_quest_messages = false
+		cleaner_game_start_counter = true
+		"limbo_/play_helper" = true
+		remove_lobby_statuses = true
+		show_personal_mystery_box_rewards = true
+		limbo_play_helper = true
+		remove_gifts_message = true
+		"remove_friend/guild_statuses" = false
+		white_chat = true
+		remove_hype_limit_reminder = false
+		remove_game_announcements = false
+		remove_chat_emojis = true
+		remove_soul_well_announcements = true
+		remove_auto_activated_quest_messages = false
+		remove_bedwars_advertisements = true
+		remove_curse_of_spam_messages = false
+		remove_guild_motd = true
+		player_adblocker = true
+		remove_server_connected_messages = true
+		white_private_messages = true
+
+	[chat.restyler]
+		player_count_on_player_leave = false
+		player_count_before_player_name = false
+		short_channel_names = true
+		game_status_restyle = true
+		player_count_padding = false
+
+	[chat.parties]
+		remove_all_chat_message = false
+		chat_swapper_channel = 0
+		chat_swapper = true
+
+	[chat.shout]
+		shout_cooldown = true
+

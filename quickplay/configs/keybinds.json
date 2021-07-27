@@ -1,0 +1,25 @@
+{
+  "keybinds": [
+    {
+      "name": "Open Main GUI",
+      "key": 43,
+      "className": "co.bugg.quickplay.client.gui.game.QuickplayGuiMainMenu",
+      "constructorParams": []
+    },
+    {
+      "name": "Bed Wars 4v4v4v4",
+      "key": 75,
+      "chatCommand": "/play bedwars_four_four"
+    },
+    {
+      "name": "Bed Wars 3v3v3v3",
+      "key": 81,
+      "chatCommand": "/play bedwars_four_three"
+    },
+    {
+      "name": "Arcade Capture the Wool",
+      "key": 83,
+      "chatCommand": "/play arcade_pvp_ctw"
+    }
+  ]
+}

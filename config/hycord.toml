@@ -1,0 +1,55 @@
+
+[general]
+
+	[general.api]
+		hypixel_api_key = "aeba5619-4cd9-41e8-a3f5-b0b6c88ab96b"
+
+	[general.updates]
+		update_channel = 1
+
+[discord]
+
+	[discord.voice]
+		show_talking_indicator = true
+		show_user_list = true
+		show_talking_ring = true
+		"show_people_that_aren't_talking" = true
+
+	[discord.relationships]
+		show_discord_friend_notifications = false
+
+	[discord.names]
+		show_discord_tag_on_hover = false
+
+	[discord.advanced]
+		proximity_voicechat_ticks = 20
+
+	[discord.rich_presence]
+		discord_rich_presence_state_on_skyblock = "{date} {time}"
+		discord_rich_presence_image_text = "{map}"
+		discord_rich_presence_image_text_in_a_lobby = ""
+		discord_rich_presence = true
+		discord_rich_presence_state_in_a_lobby = "In a party"
+		discord_rich_presence_image_text_on_skyblock = "{map}"
+		discord_rich_presence_detail_in_a_lobby = "{game} - {mode}"
+		discord_rich_presence_detail_on_skyblock = "Skyblock - {map}"
+		discord_rich_presence_time_elapsed = true
+		discord_rich_presence_detail = "{game} - {mode}"
+		discord_rich_presence_state = "{players} players left"
+
+	[discord.invites]
+		enable_invites = true
+		maximum_discord_party_size = 15
+
+[miscellaneous]
+
+	[miscellaneous.autofl]
+		auto_friend_list = false
+
+	[miscellaneous.autogl]
+		auto_guild_list = false
+
+	[miscellaneous.nicknames]
+		enable_custom_nicknames = true
+		disable_color_in_kill_feed = false
+

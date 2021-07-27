@@ -1,0 +1,34 @@
+{
+  "main": {
+    "0": {
+      "title": "All Chat",
+      "icon": {
+        "name": "minecraft:grass",
+        "damage": 0
+      },
+      "action": {
+        "command": "/chat a"
+      }
+    },
+    "8": {
+      "title": "Party Chat",
+      "icon": {
+        "name": "minecraft:diamond_axe",
+        "damage": 0
+      },
+      "action": {
+        "command": "/chat g"
+      }
+    },
+    "9": {
+      "title": "Guild Chat",
+      "icon": {
+        "name": "minecraft:lead",
+        "damage": 0
+      },
+      "action": {
+        "command": "/chat g"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+
+[general]
+
+	[general.general]
+		height_limit_mod = false
+		update_notify = true
+
+[sound]
+	play_a_sound = false
+	sound = 0
+	spam_the_sound = false
+	notify_blocks = 10
+
+[render]
+	colour = 0
+	render_shadow = true
+	max_height = true
+	display_background = true
+	height_left = true
+	show_in_guis = true
+	map = true
+

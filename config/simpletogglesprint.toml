@@ -1,0 +1,48 @@
+
+[general]
+
+	[general.hidden]
+		last_launched_version = "2.0"
+
+	[general.options]
+		show_config_on_menu = true
+
+	[general.toggle_sprint]
+		state = true
+		seperate_keybind_for_toggle_sprint = false
+		enabled = true
+
+	[general.toggle_sneak]
+		seperate_keybind_for_toggle_sneak = false
+		state = false
+		enabled = false
+
+[color]
+	use_simple_or_advanced_color = 0
+
+	[color.advanced]
+		red = 255
+		green = 255
+		blue = 255
+
+	[color.simple]
+		color = 0
+
+[display]
+	display_background = false
+	show_in_guis = false
+	enabled = true
+
+	[display.color]
+		use_chroma_color = false
+		display_color = "255,255,255,255"
+
+	[display.options]
+		scale = 0.0
+		text_shadow = true
+		text_alignment = 0
+
+	[display.position]
+		x = 0.2
+		y = 97.4
+

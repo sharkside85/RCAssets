@@ -1,0 +1,2 @@
+voice users:6,6,75,50,1920,1080,false,false
+mic:28,28,20,20,1920,1080,true,true

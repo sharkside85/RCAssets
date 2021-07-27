@@ -1,0 +1,158 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "minecraft:textures/gui/title/minecraft.png",
+            "posX" : -50,
+            "posY" : 90,
+            "width" : 100,
+            "height" : 35,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+	    "texture": "minecraft:textures/menu/button.png",
+            "posX" : -60,
+            "posY" : 48,
+            "width" : 120,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+	    "texture": "minecraft:textures/menu/button.png",
+            "posX" : -60,
+            "posY" : 68,
+            "width" : 120,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+	    "texture": "minecraft:textures/menu/button.png",
+            "posX" : -60,
+            "posY" : 88,
+            "width" : 120,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+	    "texture": "minecraft:textures/menu/button.png",
+            "posX" : -60,
+            "posY" : 108,
+            "width" : 120,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+	    "texture": "minecraft:textures/menu/button.png",
+            "posX" : -60,
+            "posY" : 128,
+            "width" : 120,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 180,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 180,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -40,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 90,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:minecraft:texts/splashes.txt"
+        },
+        
+        "background":
+        {
+            "image" : "minecraft:textures/menu/background.png",
+            "mode" : "fill"
+        }
+    }
+}

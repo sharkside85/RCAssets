@@ -1,0 +1,61 @@
+
+[bossbar]
+	bossbar_y = 13
+	toggle_bossbar = true
+	bossbar_customization = false
+	toggle_shadow = true
+	bossbar_color = "255,255,255,255"
+	toggle_bar = true
+	bossbar_x = 147
+	toggle_text = true
+
+[general]
+	automatically_get_api_key = true
+	api_key = "6a63dd0d-20cb-4158-83f7-16c72bb7c284"
+	show_update_notification = true
+	first_launch = false
+	bossbar_first_time = true
+
+[gexp]
+	automatically_check_gexp = true
+	is_regex_loaded = true
+
+[chat]
+	text_color = 1
+	highlight_name = false
+
+	[chat.discord]
+		"don't_block_in_guild_chat" = true
+		"don't_block_in_officer_chat" = false
+		"don't_block_in_party_chat" = true
+		block_discord_invites = true
+
+[sound]
+	sound_boost = true
+	sound_multiplier = 8
+
+[automatic]
+	automatically_check_gexp = true
+	automatically_check_winstreak = false
+
+[information]
+	info = ""
+
+	[information.credits]
+		isxander = ""
+		sk1er_llc = ""
+		tgmdevelopment = ""
+		skytils = ""
+
+[text]
+	text_color = 0
+	highlight_name = false
+
+[action_bar]
+	action_bar_position = false
+	action_bar_shadow = true
+	action_bar_customization = false
+	action_bar_x = 0
+	action_bar = true
+	action_bar_y = 12
+
